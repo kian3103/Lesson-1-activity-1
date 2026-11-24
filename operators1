@@ -1,0 +1,26 @@
+field1=24
+field2=4
+field3=12
+field4=16
+field5=20
+total=field1+field2+field3+field4+field5
+average=total/5
+print("total=",total)
+print("average=",average)
+priceperkg=15
+earnings=total*priceperkg
+print("earnings=",earnings)
+bags=total//25
+leftover=total%25
+print("leftover=",leftover)
+print("bags=",bags)
+lastyear=500
+print("better than last year",total>lastyear)
+print("same as last year",total==lastyear)
+print("at least as good",total>=lastyear)
+total+=30
+print("after bonus total=",total)
+total-=15
+print("after seed reserve",total)
+bags=total//25
+print("final bags=",bags)
